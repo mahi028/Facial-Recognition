@@ -17,7 +17,7 @@ A modern web-based facial recognition application built with Flask and InsightFa
    python -m venv env
    source env/bin/activate  # On Windows: env\Scripts\activate
    ```
-
+> Note: For Windows, make sure you have `Microsoft Visual C++ Build Tools` (v14.0 or higher).
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
