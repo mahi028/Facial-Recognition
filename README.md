@@ -25,7 +25,7 @@ A modern web-based facial recognition application built with Flask and InsightFa
 
 3. **Run the Application**:
    ```bash
-   python wsgi.py
+   python app.py
    ```
 
 4. **Access the Application**:
@@ -62,7 +62,7 @@ A modern web-based facial recognition application built with Flask and InsightFa
 ## File Structure
 
 ```
-├── wsgi.py                 # Main Flask application
+├── app.py                 # Main Flask application
 ├── templates/
 │   └── index.html         # Web interface template
 ├── static/
