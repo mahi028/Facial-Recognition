@@ -10,26 +10,50 @@ A modern web-based facial recognition application built with Flask and InsightFa
 - **Real-time Processing**: Fast face detection and recognition using InsightFace
 - **Similarity Scoring**: Shows confidence scores for recognition results
 
-## Installation
 
-1. **Create Virtual Environment**:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
-   ```
-> Note: For Windows, make sure you have `Microsoft Visual C++ Build Tools` (v14.0 or higher).
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Prerequisites
+This application currently **only supports Linux environments**.
 
-3. **Run the Application**:
-   ```bash
-   python app.py
-   ```
+Before running the backend application, you need to install the following dependencies:
 
-4. **Access the Application**:
-   Open your browser and go to: `http://localhost:5000`
+```sh
+sudo apt install cmake
+python3 -m pip install --upgrade pip setuptools wheel
+```
+
+## Setup and Installation
+
+1. Create and Activate Virtual Environment (Optional):
+```sh
+python3 -m venv env
+source env/bin/activate
+```
+
+2. Install Python dependencies:
+```sh
+python3.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## Running the Application
+
+To start the backend server:
+
+```sh
+python3 run.py
+```
+
+## Environment Requirements
+
+- **Operating System**: Linux (Ubuntu/Debian recommended)
+- **Python**: 3.7 or higher
+- **CMake**: Required for certain Python packages
+
+## Notes
+
+- Make sure all prerequisites are installed before attempting to run the application
+- The application may not work properly on Windows or macOS due to Linux-specific dependencies
+- If you encounter any installation issues, ensure your system is up to date: `sudo apt update && sudo apt upgrade`
 
 ## Usage
 
